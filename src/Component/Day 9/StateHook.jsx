@@ -13,10 +13,10 @@ function StateHook() {
   return (
     <div style={{}}>
       <h1>Count: {count}</h1>
-      <h1>{randomNumber}</h1>   
+      <h1>{randomNumber}</h1>
       <button onClick={() => setCount(count - 1)}>Decrease</button>
       <button onClick={() => setCount(count + 1)}>Increase</button>
-      <button onClick={() => setRandomNumber(randomNumber + 2)}>
+      <button onClick={() => setRandomNumber(randomNumber + 1)}>
         Increase Random
       </button>
     </div>

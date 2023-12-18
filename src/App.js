@@ -23,33 +23,10 @@ import ComponentLifeCycle from "./Component/Day 8/ComponentLifeCycle"
 import LifecycleFunctional from "./Component/Day 8/LifeCycleFunction" 
 */
 
-import React from "react";
-import Footer from "./Component/Day9/Context/Footer";
-import HomePage from "./Component/Day9/Context/HomePage";
-import InsideHome from "./Component/Day9/Context/InsideHome";
-import Main from "./Component/Day9/Context/Main";
-import Navbar from "./Component/Day9/Context/Navbar";
-import Purity from "./Component/Day9/Purity";
-import StateHook from "./Component/Day9/StateHook";
-
-export default function App()
-{
-  return (
-    <div>
-    <Footer></Footer>
-    <HomePage></HomePage>
-    <InsideHome></InsideHome>
-    <StateHook></StateHook>
-    <Main></Main>
-    <Purity></Purity>
-    <Navbar></Navbar>
-    </div>
-  )
-}
-    /*
-    <PropsFunction name ="Abinaya" sport="Boxing"></PropsFunction>
-    <PropsClass college ="SKCT"></PropsClass>
-    <PropsFunctionExample hob1 ="sleeping" hob2="Drawing"></PropsFunctionExample>
+/*
+<PropsFunction name ="Abinaya" sport="Boxing"></PropsFunction>
+<PropsClass college ="SKCT"></PropsClass>
+<PropsFunctionExample hob1 ="sleeping" hob2="Drawing"></PropsFunctionExample>
     <PropsArrowFunctionExample color="Purple"></PropsArrowFunctionExample>
     <StateClassCom></StateClassCom>
     <StateFunction/>
@@ -60,27 +37,33 @@ export default function App()
     <DefaultProps/>
     <DynamicRenderingexample/>
     <div>
-  <Router>
-  <ul>
-  <li>
-  <Link to="/login">Login page</Link>
-  </li>
-  <li>
-  <Link to="/signup">Signin</Link>
-  </li>
-  </ul>
-  <Routes>
-  <Route path="/login" element=<Login/>></Route>
-  <Route path="/signup" element=<Signin/>></Route>
-  </Routes>
-  </Router>
-  <TryCatch fruit="Onion"></TryCatch>
+    <Router>
+    <ul>
+    <li>
+    <Link to="/login">Login page</Link>
+    </li>
+    <li>
+    <Link to="/signup">Signin</Link>
+    </li>
+    </ul>
+    <Routes>
+    <Route path="/login" element=<Login/>></Route>
+    <Route path="/signup" element=<Signin/>></Route>
+    </Routes>
+    </Router>
+    <TryCatch fruit="Onion"></TryCatch>
     </div> 
     <div>
     <ComponentLifeCycle></ComponentLifeCycle>
     <LifecycleFunctional></LifecycleFunctional>
     <LifecycleClass></LifecycleClass>
     </div>
- */
-
-
+    */
+   
+   import React from "react";
+   import Main from "./Component/Day 9/Context/Main";
+   function App() {
+     return <Main />;
+   }
+   
+   export default App;
