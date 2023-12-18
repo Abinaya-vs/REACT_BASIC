@@ -14,21 +14,38 @@ import DynamicRenderingexample from "./Day4/DynamicRenderingexample.js";
 import Login from "./Component/Day5/Login.js";
 import Signin from "./Component/Day5/Signin.js";
 import {BrowserRouter as Router,Route,Link,Routes} from 'react-router-dom'; 
-
-
-
 import { SvgIcon } from "@mui/material";
 import BasicButtons from "./Component/Day6/Button.js";
 import List from "./Component/Day6/List.js";
 import TryCatch from "./Component/Day 8/TryCatch"
-import List2 from "./Component/Day6/List2.jsx"; */
-
+import List2 from "./Component/Day6/List2.jsx"; 
 import ComponentLifeCycle from "./Component/Day 8/ComponentLifeCycle"
-import LifecycleClass from "./Component/Day 8/LifeCycleClass"
-import LifecycleFunctional from "./Component/Day 8/LifeCycleFunction"
+import LifecycleFunctional from "./Component/Day 8/LifeCycleFunction" 
+*/
+
+import React from "react";
+import Footer from "./Component/Day9/Context/Footer";
+import HomePage from "./Component/Day9/Context/HomePage";
+import InsideHome from "./Component/Day9/Context/InsideHome";
+import Main from "./Component/Day9/Context/Main";
+import Navbar from "./Component/Day9/Context/Navbar";
+import Purity from "./Component/Day9/Purity";
+import StateHook from "./Component/Day9/StateHook";
+
 export default function App()
 {
   return (
+    <div>
+    <Footer></Footer>
+    <HomePage></HomePage>
+    <InsideHome></InsideHome>
+    <StateHook></StateHook>
+    <Main></Main>
+    <Purity></Purity>
+    <Navbar></Navbar>
+    </div>
+  )
+}
     /*
     <PropsFunction name ="Abinaya" sport="Boxing"></PropsFunction>
     <PropsClass college ="SKCT"></PropsClass>
@@ -42,9 +59,7 @@ export default function App()
     <TwoWayBinding/>
     <DefaultProps/>
     <DynamicRenderingexample/>
-  */
-
-  /*<div>
+    <div>
   <Router>
   <ul>
   <li>
@@ -60,12 +75,12 @@ export default function App()
   </Routes>
   </Router>
   <TryCatch fruit="Onion"></TryCatch>
-    </div> */
+    </div> 
     <div>
     <ComponentLifeCycle></ComponentLifeCycle>
     <LifecycleFunctional></LifecycleFunctional>
     <LifecycleClass></LifecycleClass>
     </div>
-  )
-}
+ */
+
 
